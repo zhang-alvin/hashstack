@@ -95,10 +95,6 @@ packages:
   pip:
   pexpect:
   pcs_api:
-  zoltan:
-    use: host-mpi
-    build_with: |
-      parmetis
 #  chrono:
   pytest:
   pytest-xdist:
@@ -106,7 +102,6 @@ packages:
   gmsh:
     use: host-mpi
   scorec:
-    use: host-mpi
   matplotlib:
   sphinx:
   sphinx-bootstrap-theme:
